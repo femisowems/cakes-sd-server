@@ -93,9 +93,7 @@ dist
 
 # Gatsby files
 .cache/
-# Comment in the public line in if your project uses Gatsby and not Next.js
-# https://nextjs.org/blog/next-9-1#public-directory-support
-# public
+public/
 
 # vuepress build output
 .vuepress/dist
@@ -141,7 +139,6 @@ dist
 /node_modules
 npm-debug.log
 yarn-error.log
-/node_modules/*
 
 # IDEs and editors
 .idea/
@@ -164,7 +161,6 @@ yarn-error.log
 /.angular/cache
 .sass-cache/
 /connect.lock
-/coverage
 /libpeerconnection.log
 testem.log
 /typings
@@ -172,3 +168,22 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Server file
+packages/functions/next
+package-lock.json
+.firebase
+firebase-debug.log
+
+# Submodule
+.now
+
+# Docz ignore
+docz
+docz-core
+
+# Vercel
+.vercel
+
+# Husky
+.husky/
