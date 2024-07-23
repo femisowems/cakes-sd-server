@@ -1,11 +1,11 @@
 {
   "root": true,
   "api": {
-    "projectId": "0jfvvkkd",
+    "projectId": "hdcz1a5h",
     "dataset": "production"
   },
   "project": {
-    "name": "cakes-sd"
+    "name": "slicks-slices-starterdev"
   },
   "plugins": [
     "@sanity/base",
